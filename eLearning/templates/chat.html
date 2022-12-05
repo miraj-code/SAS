@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Chat Rooms</title>
+</head>
+<body>
+    
+    What chat room would you like to enter?<br>
+    <h4>Available Groups</h4>
+    {% for i in groups %}
+        <button id="room-name-input-{{i.name}}" value="{{ i.name }}">{{ i.name }}</button><br><br>
+    {% endfor %}
+
+    <h4>Available Users</h4>
+    {% for i in users %}
+        <button id="room-username-input-{{i.username}}" value="{{ i.username }}">{{ i.username }}</button><br><br>
+    {% endfor%}
+    <script>
+        document.querySelectorAll('[id*="room-name-input"').forEach(el=> { 
+            el.addEventListener('click', e=> {
+                var roomName = e.target.value;
+                window.location.pathname = '/chat/' + roomName + '/';
+            })
+        });
+    </script>
+</body>
+</html>

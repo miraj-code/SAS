@@ -1,0 +1,69 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "greetings",
+                "good morning",
+                "good afternoon",
+                "good evening"
+            ],
+            "responses": [
+                "Hello, how can I help you?",
+                "Hi there, how can I help you?",
+                "Greetings, how can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later"
+            ],
+            "responses": [
+                "Bye, have a good day!",
+                "Goodbye, have a good day!",
+                "See you later, have a good day!",
+                "Bye, have a good day!"
+            ]
+        },
+        {
+            "tag": "thankyou",
+            "patterns": [
+                "thank you",
+                "thanks"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem, you're welcome!",
+                "My pleasure, you're welcome!"
+            ]
+        },
+        {
+            "tag": "biology",
+            "patterns": [
+                "What is biology?",
+                "What is the biology of life?"
+            ],
+            "responses": [
+                "Biology is the natural science that studies the structure and function of living organisms.",
+                "Biology is the natural science that studies the structure and function of living organisms.",
+                "Biology is the natural science that studies the structure and function of living organisms."
+            ]
+        },
+        {
+            "tag": "animal",
+            "patterns": [
+                "what is the biology of animals?"
+            ],
+            "responses": [
+                "Animals are a group of animals that are considered to be a single unit.",
+                "Animals are a group of animals that are considered to be a single unit.",
+                "Animals are a group of animals that are considered to be a single unit."
+            ]
+        }
+    ]
+}

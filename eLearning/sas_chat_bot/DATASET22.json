@@ -1,0 +1,591 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "What is biology?"
+        ],
+        "responses": [
+          "Biology is the science of life and living organisms. bios – meaning ‘life’ and logos – meaning ‘study."
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is cell?"
+        ],
+        "responses": [
+          "cell is the smallest unit that can live on its own and that makes up all living organisms and the tissues of the body"
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is scientific method?"
+        ],
+        "responses": [
+          "This is the process by which biologists and all other scientists approach their work."
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "What do biologists use in the laboratory?"
+        ],
+        "responses": [
+          "microscopes,Petri dishes,pipettes and syringes,centrifuges"
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is microscope?",
+          "what are types of microscope?"
+        ],
+        "responses": [
+          "A microscope is an optical instrument having one or more lenses system which is used to get a clear magnified image of minute objects or structures that can’t be viewed by the naked eyes.",
+          "optical microscope,electron microscope,scanning microscope and x-ray microcope"
+  
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is biotechnology?"
+        ],
+        "responses": [
+          "is an exciting area of biological research that is expanding rapidly. It involves many different aspects of biology.."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is AIDS?"
+        ],
+        "responses": [
+          " a disease that severely reduces the body’s immune functioning"
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "whta is HIV?"
+        ],
+        "responses": [
+          "the virus that causes AIDS"
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is science?"
+        ],
+        "responses": [
+          "Science is an ongoing effort to find new information and principles which can increase human knowledge and understanding."
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "How many chromosomes have been found in a humans cell?"
+        ],
+        "responses": [
+          "there are 46 chromosomes in human cell"
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what are types of biologist?"
+        ],
+        "responses": [
+          "doctor,entomologist,geneticist"
+        
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is the different between electron and optical microscopes?"
+        ],
+        "responses": [
+          "optical microscopes is that use beams of light to produce magnified images and electron microscopes is that use beams of electrons to produce magnified images"
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is HAART?"
+        ],
+        "responses": [
+          "Highly Active Anti-Retroviral Therapy is a combination of anti retroviral drugs each targeted at a different phase of the HIV life cycle"
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what it did mean conrtol variable?"
+          
+        ],
+        "responses": [
+          "Ourexperiment would not be valid. So we must keep constant anything other than the IV that might influence the results. These are controlled variables."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what do biologist use in the field?"
+        ],
+        "responses": [
+          "biologist use quadrant,pitfall trap,field microscope,a PH kit in the field"
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is paleobiology?",
+          "what is astrobiology?"
+        ],
+        "responses": [
+          "paleobiology is the study of the origin and evolution of life",
+          "astrobiology is the investigation of the possibility of life on other planets"
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is experimental science?"
+          
+        ],
+        "responses": [
+          "the use of experiments to obtain information."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is applied science?"
+          
+        ],
+        "responses": [
+          "applied science is the use of scientific research to meet certain human needs."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what are the main steps in scientific methods?"
+          
+        ],
+        "responses": [
+          "the main steps are:- ask question,Do background rsearch,Construct hypothesis,Design and carry out an experiment to test the hypothesis"
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "how to reduce the spread of AIDS?"
+          
+        ],
+        "responses": [
+          "restrict the number of sexual partners, not share infectedneedles,encourage men to be circumcised"
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is centrifuge?"
+          
+        ],
+        "responses": [
+          "centrifuge machine that spins to separate solids from liquids."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what is quadrat?"
+          
+        ],
+        "responses": [
+          "quadrat is a small frame used for ecological or population studies."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what are independent variable?"  
+        ],
+        "responses": [
+          "the variable that the experimenter changes to see if this affects the performance of the dependent variable."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "what are dependent variable?"
+          
+        ],
+        "responses": [
+          "the factor in an experiment that the scientist measures to see if it changes when the independent variable is changed."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "What is spontaneous generation?"
+          
+        ],
+        "responses": [
+          "spontaneous generation is the appearance of living organisms from non-living matter."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "waht is Validity?"
+          
+        ],
+        "responses": [
+          "Validity concerns whether an experiment really measures what it says it is measuring.."
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "why Biological research is highly relevant to us?"
+          
+        ],
+        "responses": [
+          "because it produce new crops that will help to feed an increasing world population,produce new vaccines including, one day, a vaccine against AIDS,produce new drugs that are more effective in treating diseases"
+          
+        ]
+      },
+      {
+        "tag": "Biology grade 11",
+        "patterns": [
+          "how HIV can be transmitted?"
+          
+        ],
+        "responses": [
+          "sexual intercourse,transfusion of infected blood,drug users sharing infected needles,from mother to child during pregnancy."
+          
+        ]
+      },
+      
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is chemistry?"
+        ],
+        "responses": [
+          "Chemistry is the branch of science that deals with the properties, composition, and structure of elements and compounds, how they can change, and the energy that is released or absorbed when they change"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is mixture?"
+        ],
+        "responses": [
+          "Mixtures are combinations of two or more substances in which each substance retains its own chemical identity and hence its own properties"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is homogeneous mixture?"
+        ],
+        "responses": [
+          "homogeneous mixture is a mixture in which the composition of the mixture is the same throughout.i.e.,it has no visible boundaries because the components are mixed as individual atoms, ions and molecules"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is heterogeneous mixtures?"
+        ],
+        "responses": [
+          "heterogeneous mixtures is a mixture that has one or more visible boundaries between the components.Thus, its composition is not uniform. In this type of mixture, each component’s particles can be detected by the naked eye or with a magnifying glass"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what are suspensions?"
+        ],
+        "responses": [
+          "These suspensions are heterogeneous mixtures composed of particles that are visible to the naked eye or that can be seen with a magnifying glass"
+        ]
+      },{
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is solution?"
+        ],
+        "responses": [
+          "we prepare a homogeneous mixture in which the dissolved species are molecules or ions. A solution may be coloured, but it is transparent; the dissolved molecules or ions are invisible, and they do not settle out on standing."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what are the four state of matter?"
+        ],
+        "responses": [
+          "soild,liquid,gas and plasma"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is colloid.?"
+        ],
+        "responses": [
+          "A colloid is a heterogeneous system in which one substance is dispersed as very fine particles in another substance known as the dispersion medium.?"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is concentration?"
+        ],
+        "responses": [
+          "concentration of a solution is the amount of solute present in a given quantity of solventor solution. The concentration of a solution can be expressed either qualitatively or quantitatively"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is molecular equation?"
+        ],
+        "responses": [
+          "A molecular equation is a chemical equation in which the reactants and the products are written as if they were molecular substances, even though they may actually exist in solution as ions"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is chemical equation?"
+        ],
+        "responses": [
+          "A chemical equation consists of the chemical formulas of the reactants (the starting substances) and the chemical formula of the products (substances formed in the chemical reaction)."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is coligative properties of solution?"
+        ],
+        "responses": [
+          "Solutions' colligative properties are properties that depend on the concentration of molecules or ions of the solute, but not on the identity of the solute. Colligative properties include lowering of vapour pressure, boiling point elevation, depression of the freezing point, and osmotic pressure"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is ionic equation?"
+        ],
+        "responses": [
+          "An ionic equation is a chemical equation where the electrolytes in aqueous solution are written as dissociated ions"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is molarity?"
+        ],
+        "responses": [
+          "Molarity or molar concentration is the number of moles of solute in 1 L of solution"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is normality?"
+        ],
+        "responses": [
+          "The normality of a solution (N) is the number of equivalents of the solute contained in one litre of solution."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is molality?"
+        ],
+        "responses": [
+          "The molality of a solution is the number of moles of solute per kilogram of solvent contained in a solution"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is dilution?"
+        ],
+        "responses": [
+          "dilution is the procedure for preparing a less-concentrated solution from a more concentrated one."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is boiling point?"
+        ],
+        "responses": [
+          "The boiling point of a liquid is the temperature at which its vapour pressure equals the atmospheric pressure. If a non-volatile solute is added to a solvent, the solution’s boiling point will be increased"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is volatile?"
+        ],
+        "responses": [
+          "A substance is said to be volatile if it boils at a low temperature, changing from the liquid to the gas phase.Substances that are gases at room temperature are extremely volatile: they have high volatility. They can only be seen as liquids when exposed to low temperatures or high pressures. "
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "whatis non volatile?"
+        ],
+        "responses": [
+          "Non-volatile substances are substances which do not vaporize rapidly. They don't have a higher vapor pressure at the normal room temperature and pressure. Nonvolatile substances will mostly be as solids at room temperature. Sodium chloride, silver nitrate are nonvolatile compounds"
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "What are the major factors that affect the rate of dissolution?"
+        ],
+        "responses": [
+          "The rate of dissolution is the speed with which a solute goes into solution. This largely depends upon the inter-particle forces and, to a lesser extent, on conditions such as the surface area of the solid solute, and the temperature and the pressure of the system."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "What is lattice energy?"
+        ],
+        "responses": [
+          "The difference in energy between the expected experimental value for the energy of the ionic solid and the actual value observed."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is mole fraction?"
+        ],
+        "responses": [
+          "The mole fraction (X) of a solute is the ratio of the number of moles of solute divided by the total number of moles of a solution."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is Osmotic pressure?"
+        ],
+        "responses": [
+          "Osmotic pressure is defined as the pressure that must be applied to the solution side to stop fluid movement when a semipermeable membrane separates a solution from pure water.."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is  Van't Hoff factor?"
+        ],
+        "responses": [
+          "Van't Hoff factor can be defined as the ratio of the concentration of particles formed when a substance is dissolved to the concentration of the substance by mass.."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is electrolyte solution?"
+        ],
+        "responses": [
+          "electrolyte solution consists of a liquid or solid phase containing at least one component, e.g., water, which is called the solvent, and an ionizable substance."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is ideal solution?"
+        ],
+        "responses": [
+          "Ideal solution is a solution in which the interaction between molecules of the components does not differ from the interactions between the molecules of each component."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is the three types of interactions?"
+        ],
+        "responses": [
+          "Solvent-solvent interaction,solute-solute interaction,Solvent-solute interaction."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is solute-solute interaction "
+        ],
+        "responses": [
+          "Solute-solute interactions are the intermolecular attractions between solute particles."
+        ]
+      },
+      {
+        "tag": "Chemistry grade 12",
+        "patterns": [
+          "what is Solvent-solvent?"
+        ],
+        "responses": [
+          "Solvent-solvent interactions are the intermolecular attractions between solvent particles."
+        ]
+      }
+    ]
+  }
